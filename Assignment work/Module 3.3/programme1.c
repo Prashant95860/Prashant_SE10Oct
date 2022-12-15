@@ -1,24 +1,22 @@
 #include<stdio.h>
 void main()
 {
-	int i,a[5],max;
+	int arr[]={35,13,9,78,60},max=arr[0],i;
+	int length = sizeof(arr)/sizeof(arr[0]);
+
 	
-	printf("Enter elements : ");
 	
 	
-	for(i=0;i<5;i++);
-	scanf("%d",&a[i]);
 	
-	max=a[0];
-	
-	for(i=1;i<5;i++);
-	
-		if(a[i]>max)
-		max=a[i];
 		
+	for(i=0;i<length;i++)
 	
+{
+	if(arr[i] > max)
+	max = arr[i];
 	
-		printf("\nThe maximum Number is : ",max);
+}
+	printf("Maximum Number is : %d",max);
 		
 
 
