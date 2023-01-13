@@ -5,7 +5,8 @@ void main()
 
 	int i;
 	
-	for (i=100;i>=1;i--)
+	for (i=972;i>=879;i--);
+	
 	{
 		printf("%d\n",i);
 		
